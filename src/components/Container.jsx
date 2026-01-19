@@ -30,7 +30,7 @@ function Container() {
             </section>
 
             {/* About Section */}
-            <section id="about" className="about text-base/loose p-7 my-32 bg-zinc-700 flex flex-col gap-7 ">
+            <section id="about" className="about text-base/loose p-7 mx-3 md:mx-0 my-32 bg-zinc-700 flex flex-col gap-7 ">
                 <div>
                     <h1 className="text-5xl font-bold text-center mb-7">About Me</h1>
                     <p className="text-justify lg:text-xl opacity-80">In my work, I focus on creating software that is reliable, efficient, and easy to use. I enjoy exploring different technologies and finding the best approach to solve real problems.</p>       
@@ -48,7 +48,7 @@ function Container() {
             </section>
 
             {/* Project Section */}
-            <section id="project" className="mx-15 mb-32 ">
+            <section id="project" className="mx-3 sm:mx-15 mb-32 ">
                 <h1 className="text-5xl font-bold text-center mb-10">Project</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
                     {projects.map((project) => (
