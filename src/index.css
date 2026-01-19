@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'poppins-thin';
+  src:  local('poppins-thin'), 
+        url('../public/assets/poppins-font/Poppins-Thin.ttf') format('ttf');
+  font-size: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins-regular';
+  src:  local('popping-regular'), 
+        url('../public/assets/poppins-font/Poppins-Regular.ttf') format('ttf');
+  font-size: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins-medium';
+  src:  local('poppins-medium'), 
+        url('../public/assets/poppins-font/Poppins-Medium.ttf') format('ttf');
+  font-size: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'poppins-thin', Arial, Helvetica, sans-serif;
+  
+}
