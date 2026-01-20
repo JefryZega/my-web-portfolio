@@ -20,8 +20,8 @@ function Container() {
 
                     {/* Button */}
                     <div className="mt-10 flex gap-6">
-                        <a href="" className="bg-blue-500 p-4 rounded hover:bg-blue-400 ">Resume</a>
-                        <a href="" className="bg-zinc-700 p-4 rounded hover:bg-zinc-400 ">Send Email</a>
+                        <a href="https://drive.google.com/file/d/1-0-VcSyjeAEDctAr5w2ewgZURtgEbZ9E/view?usp=drive_link" target="_blank" className="bg-blue-500 p-4 rounded hover:bg-blue-400 ">Resume</a>
+                        <a href="#contact" className="bg-zinc-700 p-4 rounded hover:bg-zinc-400 ">Send Email</a>
                     </div>
                 </div>
 
